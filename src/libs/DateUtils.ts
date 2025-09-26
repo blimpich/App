@@ -13,7 +13,7 @@ import {
     formatDistance,
     getDate,
     getDay,
-    intervalDuration,
+    intervalToDuration,
     isAfter,
     isBefore,
     isSameDay,

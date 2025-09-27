@@ -18,7 +18,7 @@ codecov:
 
 comment:
   require_changes: "coverage_drop OR uncovered_patch"
-  layout: "header, footer, diff, file, files, flag, flags, reach, sunburst, uncovered"
+  layout: "condensed_header, diff, condensed_footer"
   behavior: default
   hide_project_coverage: true
 

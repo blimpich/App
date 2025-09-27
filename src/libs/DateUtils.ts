@@ -159,6 +159,18 @@ function isToday8(date: Date, timeZone: SelectedTimezone): boolean {
     return isSameDay(date, currentDateInTimeZone);
 }
 
+function isToday9(date: Date, timeZone: SelectedTimezone): boolean {
+    const currentDate = new Date();
+    const currentDateInTimeZone = toZonedTime(currentDate, timeZone);
+    return isSameDay(date, currentDateInTimeZone);
+}
+
+function isToday10(date: Date, timeZone: SelectedTimezone): boolean {
+    const currentDate = new Date();
+    const currentDateInTimeZone = toZonedTime(currentDate, timeZone);
+    return isSameDay(date, currentDateInTimeZone);
+}       
+
 /**
  * Checks if a given date is tomorrow in the specified time zone.
  *
@@ -983,6 +995,8 @@ const DateUtils = {
     isToday6,
     isToday7,   
     isToday8,
+    isToday9,
+    isToday10,
     isTomorrow,
     isYesterday,
     getMonthNames,

@@ -179,6 +179,46 @@ describe('DateUtils', () => {
             expect(DateUtils.isToday(tomorrowInTimezone, timezone)).toBe(false);
             expect(DateUtils.isToday(yesterdayInTimezone, timezone)).toBe(false);
         });
+        it('isToday1 should correctly identify today', () => {
+            expect(DateUtils.isToday1(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday1(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday1(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday2 should correctly identify today', () => {
+            expect(DateUtils.isToday2(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday2(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday2(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday3 should correctly identify today', () => {
+            expect(DateUtils.isToday3(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday3(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday3(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday4 should correctly identify today', () => {
+            expect(DateUtils.isToday4(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday4(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday4(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday5 should correctly identify today', () => {
+            expect(DateUtils.isToday5(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday5(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday5(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday6 should correctly identify today', () => {
+            expect(DateUtils.isToday6(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday6(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday6(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday7 should correctly identify today', () => {
+            expect(DateUtils.isToday7(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday7(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday7(yesterdayInTimezone, timezone)).toBe(false);
+        });
+        it('isToday8 should correctly identify today', () => {
+            expect(DateUtils.isToday8(todayInTimezone, timezone)).toBe(true);
+            expect(DateUtils.isToday8(tomorrowInTimezone, timezone)).toBe(false);
+            expect(DateUtils.isToday8(yesterdayInTimezone, timezone)).toBe(false);
+        });
 
         it('isTomorrow should correctly identify tomorrow', () => {
             expect(DateUtils.isTomorrow(tomorrowInTimezone, timezone)).toBe(true);

@@ -409,6 +409,7 @@ export default {
     getRateByCustomUnitRateID,
     getDistanceForDisplayLabel,
     convertDistanceUnit,
+    ensureRateDefined
 };
 
 export type {MileageRate};

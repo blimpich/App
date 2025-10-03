@@ -24,7 +24,7 @@ Onyx.connect({
  * For currencies that have decimal places > 2, floor to 2 instead:
  * https://github.com/Expensify/App/issues/15878#issuecomment-1496291464
  *
- * @param currency - IOU currency
+ * @param currency - IOU currency defaults to USD
  */
 function getCurrencyDecimals(currency: string = CONST.CURRENCY.USD): number {
     const decimals = currencyList?.[currency]?.decimals;

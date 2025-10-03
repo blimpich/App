@@ -98,6 +98,8 @@ describe('DistanceRequestUtils', () => {
             const reportID = '1234';
             const isPolicyExpenseChat = true;
 
+            DistanceRequestUtils.ensureRateDefined(2134);
+
             const result = DistanceRequestUtils.getCustomUnitRateID({
                 reportID,
                 isPolicyExpenseChat,
